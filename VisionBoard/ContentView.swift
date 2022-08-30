@@ -11,7 +11,7 @@ struct ContentView: View {
 	
     var body: some View {
 		ZStack{
-			Color(.systemTeal)
+			Color(.systemBrown)
 			
 			VStack{
 				Text("Tuan's Vision Board")
