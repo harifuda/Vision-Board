@@ -8,10 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+	
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+		ZStack{
+			Color(.systemTeal)
+			
+			VStack{
+				Text("Tuan's Vision Board")
+					.foregroundColor(Color.white)
+					.fontWeight(.bold)
+					.padding()
+				
+				VStack{
+					HStack{
+						ImageView(placeholder: "travelling")
+						ImageView(placeholder: "coding")
+						ImageView(placeholder: "digital-art")
+					}
+					HStack{
+						ImageView(placeholder: "game-dev")
+						ImageView(placeholder: "working-out")
+						ImageView(placeholder: "voice-acting")
+					}
+					HStack{
+						ImageView(placeholder: "graphics")
+						ImageView(placeholder: "board-game-designing")
+						ImageView(placeholder: "researching")
+					}
+				}
+				
+			}
+		}
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,3 +47,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

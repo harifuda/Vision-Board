@@ -11,6 +11,7 @@
 		80E5E5D828BE50BA0085F1AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E5E5D728BE50BA0085F1AC /* ContentView.swift */; };
 		80E5E5DA28BE50C00085F1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E5E5D928BE50C00085F1AC /* Assets.xcassets */; };
 		80E5E5DD28BE50C00085F1AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E5E5DC28BE50C00085F1AC /* Preview Assets.xcassets */; };
+		80E5E5E428BE535A0085F1AC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E5E5E328BE535A0085F1AC /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		80E5E5D728BE50BA0085F1AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80E5E5D928BE50C00085F1AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80E5E5DC28BE50C00085F1AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80E5E5E328BE535A0085F1AC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				80E5E5D528BE50BA0085F1AC /* VisionBoardApp.swift */,
 				80E5E5D728BE50BA0085F1AC /* ContentView.swift */,
 				80E5E5D928BE50C00085F1AC /* Assets.xcassets */,
+				80E5E5E328BE535A0085F1AC /* ImageView.swift */,
 				80E5E5DB28BE50C00085F1AC /* Preview Content */,
 			);
 			path = VisionBoard;
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E5E5E428BE535A0085F1AC /* ImageView.swift in Sources */,
 				80E5E5D828BE50BA0085F1AC /* ContentView.swift in Sources */,
 				80E5E5D628BE50BA0085F1AC /* VisionBoardApp.swift in Sources */,
 			);
