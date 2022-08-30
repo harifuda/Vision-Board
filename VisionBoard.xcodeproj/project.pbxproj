@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		803E9C7F28BE916C00B461BA /* WorkSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 803E9C7928BE8F5300B461BA /* WorkSans-Black.ttf */; };
+		803E9C8028BE916F00B461BA /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 803E9C7A28BE8F5300B461BA /* WorkSans-Bold.ttf */; };
+		803E9C8128BE917100B461BA /* WorkSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 803E9C7428BE8F5300B461BA /* WorkSans-ExtraBold.ttf */; };
+		803E9C8228BE917300B461BA /* WorkSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 803E9C7C28BE8F5300B461BA /* WorkSans-ExtraLight.ttf */; };
+		803E9C8328BE917500B461BA /* WorkSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 803E9C7228BE8F5300B461BA /* WorkSans-Light.ttf */; };
+		803E9C8428BE917700B461BA /* WorkSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 803E9C6F28BE8F5300B461BA /* WorkSans-Medium.ttf */; };
+		803E9C8528BE917900B461BA /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 803E9C6D28BE8F5300B461BA /* WorkSans-Regular.ttf */; };
+		803E9C8628BE917C00B461BA /* WorkSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 803E9C7028BE8F5300B461BA /* WorkSans-SemiBold.ttf */; };
+		803E9C8728BE917E00B461BA /* WorkSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 803E9C6C28BE8F5200B461BA /* WorkSans-Thin.ttf */; };
 		80E5E5D628BE50BA0085F1AC /* VisionBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E5E5D528BE50BA0085F1AC /* VisionBoardApp.swift */; };
 		80E5E5D828BE50BA0085F1AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E5E5D728BE50BA0085F1AC /* ContentView.swift */; };
 		80E5E5DA28BE50C00085F1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E5E5D928BE50C00085F1AC /* Assets.xcassets */; };
@@ -15,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		803E9C6C28BE8F5200B461BA /* WorkSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Thin.ttf"; sourceTree = "<group>"; };
+		803E9C6D28BE8F5300B461BA /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.ttf"; sourceTree = "<group>"; };
+		803E9C6F28BE8F5300B461BA /* WorkSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Medium.ttf"; sourceTree = "<group>"; };
+		803E9C7028BE8F5300B461BA /* WorkSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		803E9C7228BE8F5300B461BA /* WorkSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Light.ttf"; sourceTree = "<group>"; };
+		803E9C7428BE8F5300B461BA /* WorkSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		803E9C7928BE8F5300B461BA /* WorkSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Black.ttf"; sourceTree = "<group>"; };
+		803E9C7A28BE8F5300B461BA /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.ttf"; sourceTree = "<group>"; };
+		803E9C7C28BE8F5300B461BA /* WorkSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		803E9C7E28BE8F9D00B461BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		80E5E5D228BE50BA0085F1AC /* VisionBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E5E5D528BE50BA0085F1AC /* VisionBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionBoardApp.swift; sourceTree = "<group>"; };
 		80E5E5D728BE50BA0085F1AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +53,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		803E9C6B28BE8F4B00B461BA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				803E9C7928BE8F5300B461BA /* WorkSans-Black.ttf */,
+				803E9C7A28BE8F5300B461BA /* WorkSans-Bold.ttf */,
+				803E9C7428BE8F5300B461BA /* WorkSans-ExtraBold.ttf */,
+				803E9C7C28BE8F5300B461BA /* WorkSans-ExtraLight.ttf */,
+				803E9C7228BE8F5300B461BA /* WorkSans-Light.ttf */,
+				803E9C6F28BE8F5300B461BA /* WorkSans-Medium.ttf */,
+				803E9C6D28BE8F5300B461BA /* WorkSans-Regular.ttf */,
+				803E9C7028BE8F5300B461BA /* WorkSans-SemiBold.ttf */,
+				803E9C6C28BE8F5200B461BA /* WorkSans-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		80E5E5C928BE50BA0085F1AC = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +88,8 @@
 		80E5E5D428BE50BA0085F1AC /* VisionBoard */ = {
 			isa = PBXGroup;
 			children = (
+				803E9C7E28BE8F9D00B461BA /* Info.plist */,
+				803E9C6B28BE8F4B00B461BA /* Fonts */,
 				80E5E5D528BE50BA0085F1AC /* VisionBoardApp.swift */,
 				80E5E5D728BE50BA0085F1AC /* ContentView.swift */,
 				80E5E5D928BE50C00085F1AC /* Assets.xcassets */,
@@ -128,8 +165,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				803E9C8528BE917900B461BA /* WorkSans-Regular.ttf in Resources */,
+				803E9C7F28BE916C00B461BA /* WorkSans-Black.ttf in Resources */,
 				80E5E5DD28BE50C00085F1AC /* Preview Assets.xcassets in Resources */,
+				803E9C8328BE917500B461BA /* WorkSans-Light.ttf in Resources */,
 				80E5E5DA28BE50C00085F1AC /* Assets.xcassets in Resources */,
+				803E9C8728BE917E00B461BA /* WorkSans-Thin.ttf in Resources */,
+				803E9C8628BE917C00B461BA /* WorkSans-SemiBold.ttf in Resources */,
+				803E9C8128BE917100B461BA /* WorkSans-ExtraBold.ttf in Resources */,
+				803E9C8428BE917700B461BA /* WorkSans-Medium.ttf in Resources */,
+				803E9C8228BE917300B461BA /* WorkSans-ExtraLight.ttf in Resources */,
+				803E9C8028BE916F00B461BA /* WorkSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +320,7 @@
 				DEVELOPMENT_TEAM = M525S4B69N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VisionBoard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,6 +350,7 @@
 				DEVELOPMENT_TEAM = M525S4B69N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VisionBoard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

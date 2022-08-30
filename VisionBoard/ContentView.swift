@@ -15,6 +15,7 @@ struct ContentView: View {
 			
 			VStack{
 				Text("Tuan's Vision Board")
+					.font(.custom("WorkSans-Bold", size: 16))
 					.foregroundColor(Color.white)
 					.fontWeight(.bold)
 					.padding()
